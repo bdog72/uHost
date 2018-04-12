@@ -68,6 +68,7 @@ body {
 .main-header__brand img {
     height: 100%;
     /* width: 100%; */
+    vertical-align: middle;
 }
 
 .main-nav {
@@ -194,4 +195,8 @@ body {
 
 .button:focus {
     outline: none;
+}
+
+.open {
+    display: block !important;
 }
